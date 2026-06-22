@@ -1,0 +1,86 @@
+
+body{
+    background:black;
+    color:white;
+}
+
+
+.navbar{
+    z-index:1000;
+}
+
+
+.profile-img{
+    width:100%;
+    max-width:350px;
+    height:auto;
+    border-radius:20px;
+}
+
+
+.register, .registerForm{
+    width:100%;
+    max-width:500px;
+    margin:auto;
+    border:1px solid rgb(70,70,70);
+    border-radius:20px;
+    padding:20px;
+}
+
+.whatsapp-float{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    font-size:45px;
+    color:#25D366;
+    z-index:1000;
+}
+
+.footer{
+    background:#111;
+    padding:40px 0;
+    margin-top:50px;
+}
+
+
+.section{
+    padding-top:100px;
+}
+
+ 
+        #Footar {
+            background-color: #111;
+            color: white;
+            padding: 40px 0;
+        }
+        #Footar a {
+            color: whitesmoke;
+            text-decoration: none;
+        }
+        #Footar a:hover {
+            color: orange;
+        }
+        
+        @media (max-width: 768px) {
+            .box1, .box2, .container1 {
+                margin-left: auto !important;
+                margin-right: auto !important;
+                width: 90% !important;
+            }
+            .navbar-nav {
+                margin-left: 0 !important;
+            }
+            .iacn {
+                position: relative !important;
+                margin-left: 0 !important;
+                margin-top: 10px !important;
+            }
+        }
+
+
+        #contactForm input{
+            border-radius: 15px;
+background-color: antiquewhite;
+                border: 4px double burlywood;
+
+        }

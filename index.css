@@ -1,0 +1,223 @@
+
+body {
+    background-color: #000;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2, h3, h4, h5, h6 {
+    color: orange;
+    margin: 0px;
+    padding: 0px;
+}
+
+     #contactForm input{
+            border-radius: 15px;
+background-color: antiquewhite;
+                border: 4px double burlywood;
+
+        }
+.navbar-dark .navbar-nav .nav-link {
+    color: orange !important;
+    margin-right: 15px;
+}
+
+.navbar-brand img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px dashed #000;
+    padding: 3px;
+    outline: 2px dotted red;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.5);
+}
+
+
+.btn-orange {
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 5px 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-orange:hover {
+    background-color: #ffb84d;
+    color: #000;
+}
+
+
+.card-custom {
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 0 0 20px 20px;
+    padding: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.card-custom img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px 20px 0 0;
+    border: 2px dotted white;
+}
+
+.card-custom:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+}
+
+.languages h4 {
+    margin-top: 10px;
+}
+
+.fa-fade {
+    font-size: xx-large;
+}
+
+
+form input, form select, form textarea {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+}
+
+form button {
+    width: 100%;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+}
+
+.success {
+    color: green;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+footer {
+    background-color: #111;
+    color: #fff;
+    padding: 30px 0;
+}
+
+footer a {
+    color: whitesmoke;
+    margin-bottom: 5px;
+    display: block;
+}
+
+footer a:hover {
+    color: orange;
+}
+
+footer .fs-3 a {
+    margin-right: 10px;
+}
+
+@media (max-width: 992px) {
+    .navbar-nav {
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-custom {
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .pragrap p {
+        margin-left: 0 !important;
+        width: 100% !important;
+        text-align: justify;
+    }
+
+    .btn-orange {
+        width: 100%;
+    }
+}
+
+
+.text-warning {
+    color: orange !important;
+}
+
+img.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+   body {
+      background-color: black;
+      color: white;
+    }
+    .navbar-brand img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      border: 2px dashed #000;
+      padding: 3px;
+      outline: 2px dotted red;
+      box-shadow: 9px 7px 30px 0px;
+    }
+    .btn-orange {
+      background-color: orange;
+      color: white;
+      border-radius: 20px;
+      padding: 10px 20px;
+      margin: 5px 0;
+      border: none;
+    }
+    .card-custom img {
+      border-radius: 20px 20px 0 0;
+      border: 2px dotted white;
+      width: 100%;
+      height: auto;
+    }
+    .card-custom {
+      background-color: antiquewhite;
+      border-radius: 0 0 20px 20px;
+      padding: 10px;
+      color: black;
+      margin-bottom: 20px;
+    }
+    .fa-fade {
+      font-size: xx-large;
+    }
+    .languages h4 {
+      margin-top: 10px;
+    }
+    .container-fluid, .container {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+
+    @media (max-width: 768px) {
+      .navbar-nav {
+        margin-left: 0 !important;
+      }
+      .languages .col-2, .languages .col {
+        margin-bottom: 15px;
+      }
+      .pragrap p {
+        margin-left: 0 !important;
+        width: 100% !important;
+        text-align: justify;
+      }
+    }
